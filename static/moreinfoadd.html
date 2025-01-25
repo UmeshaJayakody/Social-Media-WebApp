@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link rel="stylesheet" href="./style/editPost.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="animated-background">
+        <div class="gradient-sphere sphere-1"></div>
+        <div class="gradient-sphere sphere-2"></div>
+        <div class="gradient-sphere sphere-3"></div>
+        <div class="particles" id="particles"></div>
+    </div>
+    <div class="navbar_2"></div>
+    <div class="navbar">
+      <ul>
+        <li>
+          <a href='http://127.0.0.1:5501/static/posts.html'>
+            <i class='bx bx-home icon'></i>
+            <i class='bx bxs-home activeIcon'></i>
+          </a>
+        </li>
+        <li class="active">
+          <a href="http://127.0.0.1:5501/static/myAccount.html">
+            <i class='bx bx-user icon'></i>
+            <i class='bx bxs-user activeIcon'></i>
+          </a>
+        </li>
+        <li>
+          <a href="http://127.0.0.1:5501/static/friend_list.html">
+            <i class='bx bx-heart icon'></i>
+            <i class='bx bxs-heart activeIcon'></i>
+          </a>
+        </li>
+        <li >
+          <a href="#" id="log_out">
+            <i class='bx bx-cog icon'></i>
+            <i class='bx bxs-cog activeIcon'></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="login-container">
+        <h2>Edit User</h2>
+        <h3>Introduction</h3>
+        <textarea id="user-introduction" rows="10" placeholder="introduction"></textarea>
+        <h3>Contact Number</h3>
+        <input type="text" id="user-contact" placeholder="contact_number">
+        <h3>Address</h3>
+        <input type="text" id="user-address" placeholder="address">
+        <h3>Birthday</h3>
+        <input type="text" id="user-birthday" placeholder="birthday">
+        <h3>Social Media link [1]</h3>
+        <input type="text" id="user-social-link-1" placeholder="social_link_1">
+        <h3>Social Media link [2]</h3>
+        <input type="text" id="user-social-link-2" placeholder="social_link_2">
+        <h3>Social Media link [3]</h3>
+        <input type="text" id="user-social-link-3" placeholder="social_link_3">
+        <h3>Profile photo</h3>
+        <input type="file" id="user-dp" class="dp-button" accept="image/*">
+        <h3>Background photo</h3>
+        <input type="file" id="user-cover" class="cover-button" accept="image/*">
+        <button id="save-button">Save</button>
+        <button id="account-delete">Delete my account</button>
+    </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./script/moreinfoadd.js"></script>
+</body>
+</html>

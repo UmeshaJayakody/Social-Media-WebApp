@@ -1,0 +1,8 @@
+install all the dependences using
+pip intall -r requirements.txt
+
+uvicorn app.main:app --reload --port 8000  
+uvicorn app.main:app --reload  
+
+login page
+http://127.0.0.1:5501/static/login.html

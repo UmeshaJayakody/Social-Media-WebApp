@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./style/register.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <div class="animated-background">
+        <div class="gradient-sphere sphere-1"></div>
+        <div class="gradient-sphere sphere-2"></div>
+        <div class="gradient-sphere sphere-3"></div>
+        <div class="particles" id="particles"></div>
+    </div>
+    <div class="login-container">
+        <div class="login-header">
+            <h1>Sign up</h1>
+            <p>Start your journey</p>
+        </div>
+        
+        <form id="register-form">
+            <div class="form-group">
+                <input type="text" class="form-input" name="name" placeholder="Name" required>
+                <i class="input-icon fas fa-user"></i>
+                <span class="error-message" id="nameError"></span>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-input" name = "email" placeholder="Email address" required> 
+                <i class="input-icon fas fa-envelope"></i>
+                <span class="error-message" id="emailError"></span>
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-input" name="password" placeholder="Password" required>
+                <i class="input-icon fas fa-lock"></i>
+                <span class="error-message" id="passwordError"></span>
+            </div>
+                <button type="submit" class="submit-button">Sign up</button> 
+        </form>
+
+    <div class="divider">
+        <span>or continue with</span>
+    </div>
+    <div class="social-login">
+        <button class="social-button" onclick="handleSocialLogin('google')">
+            <i class="fab fa-google"></i>
+        </button>
+        <button class="social-button" onclick="handleSocialLogin('apple')">
+            <i class="fab fa-apple"></i>
+        </button>
+        <button class="social-button" onclick="handleSocialLogin('github')">
+            <i class="fab fa-github"></i>
+        </button>
+    </div>
+</div>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="./script/register.js"></script>
+</body>
+</html>

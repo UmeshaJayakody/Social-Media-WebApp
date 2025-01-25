@@ -1,0 +1,324 @@
+#loading {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+
+  .spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid transparent;
+    border-top: 5px solid white;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    color:white;
+    background: url('../images/chat-background.png');
+    background-size: cover;
+    padding-top: 70px;
+    
+}
+.sidebar {
+    min-width: 300px;
+    width: 500px;
+    height: calc(100vh - 100px);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 24px;
+    padding: 3rem;
+    color: white;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    transform: translateY(20px);
+    opacity: 0;
+    animation: slideIn 0.6s ease-out forwards;
+    overflow-y: auto;
+    padding: 5px;
+}
+
+.sidebar h1 {
+    text-align: center;
+    padding: 10px;
+    background-color: #000000c7;
+    color: #fff;
+    margin: 0;
+    border-radius: 20px;
+    
+}
+.friend-item {
+    padding: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #0623c76d;
+    margin: 5px;
+    color: #ffffff;
+}
+.friend-item:hover {
+    background-color: #085493;
+}
+.friend-item.active {
+    background-color: #085493;
+    border: 2px solid #ffffff;
+}
+.friend-item h2 {
+    margin: 0;
+    font-size: 18px;
+}
+.friend-item p {
+    margin: 5px 0 0;
+    color: #666;
+}
+.chat-window {
+    flex-grow: 1;
+    padding: 20px;
+    
+}
+.chat-messages {
+    border: 1px solid #cccccc00;
+    padding: 10px;
+    height: 400px;
+    overflow-y: auto;
+    height: calc(100vh - 300px); 
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 24px;
+    padding: 3rem;
+    color: white;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    width: 1000px;
+}
+
+
+@keyframes slideIn {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes ripple {
+    to {
+        width: 300px;
+        height: 300px;
+        opacity: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .chat-messages {
+        margin: 1rem;
+        padding: 2rem;
+    }
+}
+.chat-messages::-webkit-scrollbar {
+    width: 12px;
+}
+
+.chat-messages::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.chat-messages::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 6px;
+}
+
+.chat-messages::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.chat-messages {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+}
+
+.chat-input {
+    margin-top: 10px;
+    
+    
+}
+.message-item {
+    word-wrap: break-word; 
+    word-break: break-word; 
+
+}
+.message-item.sent {
+    text-align: right;
+    min-width: 200px;
+    border : 1px solid #0095dac7;
+    background-color: #0163b967;
+    border-radius: 40px 0px 40px 40px;
+    padding: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 500px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.message-item.received {
+    text-align: left;
+    min-width: 200px;
+    border : 1px solid #2fda00c7;
+    background-color: #01b93567;
+    border-radius: 0px 40px 40px 40px;
+    padding: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: 600px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.message-box {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #000000c7;
+}
+
+
+
+.message-box {
+    width: 800px;
+    padding: 1rem 1rem 1rem 3rem;
+    background-color: #000000c7;
+    border: 1px solid rgba(255, 255, 255, 0.289);
+    border-radius: 20px 20px 20px 20px;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease;
+}
+
+.message-box::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.message-box:focus {
+    outline: none;
+    border-color: rgb(1, 231, 139);
+    background: rgba(35, 31, 31, 0.536);
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.05);
+}
+
+
+.send{
+    width: 100px;
+    padding: 1rem;
+    background: rgb(4, 255, 67);
+    color: rgb(3, 3, 3);
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.send:hover{
+    background: rgb(255, 4, 4);
+    color: black;
+}
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    top: 0px; 
+    height: 70px;
+    width: 100%;
+    background: #000000;
+    border-radius: 0px 0px 20px 20px; 
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(8, 7, 7, 0.2);
+    z-index: 1000; 
+    opacity: 0.7;
+}
+  .navbar ul{
+    position: relative;
+    display: flex;
+    width: 100%; 
+    justify-content: space-around; 
+  }
+  .navbar ul li{
+    position: relative;
+    list-style-type: none;
+  }
+  .navbar ul li a{
+    position: relative;
+    height: 120px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+  }
+  .navbar ul li a i{
+    position: absolute;
+    font-size: 38px;
+    color: #ffffff;
+  }
+  ul li a i.activeIcon{
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.6s ease;
+    transition-delay: 0.2s;
+  }
+  .navbar ul li.active a i{
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
