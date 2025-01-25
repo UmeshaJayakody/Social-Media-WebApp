@@ -4,5 +4,6 @@ pip intall -r requirements.txt
 uvicorn app.main:app --reload --port 8000  
 uvicorn app.main:app --reload  
 
-login page
+login page 
+start from hear
 http://127.0.0.1:5501/static/login.html
