@@ -150,7 +150,7 @@ async function savePostDetails() {
         }
         console.log(content_linkd);
         alert('Post created successfully.');
-        window.location.href = 'http://127.0.0.1:5501/static/myposts.html';
+        window.location.href = 'http://127.0.0.1:5501/static/myAccount.html';
     } catch (error) {
         console.error('Error creating post:', error);
         alert('Something went wrong. Please try again later.');
