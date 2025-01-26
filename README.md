@@ -124,6 +124,7 @@ Welcome to the Social Media App project! This project is a full-featured social 
   *Note: The chat system is currently **not optimized** for performance and may have room for future improvements in speed and responsiveness.*
 
 - **Chat**
+
 ![chat](./images/chat.png)
 
 ### **Responsive Design for Mobile and Desktop**
