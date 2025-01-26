@@ -53,11 +53,11 @@ Welcome to the Social Media App project! This project is a full-featured social 
     - **Social Media Links** (Links to profiles on platforms like Twitter, LinkedIn, etc.)  
 
   - **Profile page**
-    ![profile-page](./images/edit-profile-button.png)
+  ![profile-page](./images/edit-profile-button.png)
 
   - **Add more details**
-    ![add-data](./images/edit-profile-1.png)
-    ![add-data](./images/edit-profile.png)
+  ![add-data](./images/edit-profile-1.png)
+  ![add-data](./images/edit-profile.png)
 
 
 
