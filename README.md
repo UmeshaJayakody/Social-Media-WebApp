@@ -29,9 +29,9 @@ Welcome to the Social Media App project! This project is a full-featured social 
 - **Visual Clarification:**  
   The following screenshots provide a clearer understanding of the user authentication flow. 
 
-  - Login 
+  - **Login** 
   ![Login page](./images/login-page.png)
-  - Signup
+  - **Signup**
   ![Signup page](./images/signup-page.png)
 
 
