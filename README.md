@@ -1,4 +1,4 @@
-# Social Media App
+# Social Media WebApp
 
 Welcome to the Social Media App project! This project is a full-featured social media application built using FastAPI for the backend and JavaScript for the frontend. The app allows users to create profiles, post updates, connect with friends, and chat in real-time.
 
@@ -8,6 +8,7 @@ Welcome to the Social Media App project! This project is a full-featured social 
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
+- [Database](#Database)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
 - [License](#license)
