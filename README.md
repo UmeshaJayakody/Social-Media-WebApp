@@ -280,5 +280,10 @@ The database consists of 7 tables designed to efficiently store and manage data 
 
 ## Contributing  
 
-This is an individual project.  
-Contributions are welcome! Please fork the repository and create a pull request with your changes. Make sure to follow the code style and include tests for any new features or bug fixes.
+This is an individual project developed to demonstrate key functionality and features. However, contributions are highly welcome and appreciated! If you'd like to contribute, please follow the steps below:
+
+Fork the repository: Create a personal copy of the repository.
+Create a pull request: Submit a pull request with your proposed changes.
+Code Style: Ensure that your code adheres to the established coding standards and style guidelines.
+Testing: Include appropriate tests for any new features or bug fixes to ensure code quality and functionality.
+Your contributions help improve this project, and we appreciate your effort in making it better!
