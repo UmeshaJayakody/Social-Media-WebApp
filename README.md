@@ -242,33 +242,7 @@ The database consists of 7 tables designed to efficiently store and manage data 
 
 ## API Endpoints  
 
-### Authentication  
-
-- `POST /auth/login`: User login  
-- `POST /auth/register`: User registration  
-
-### User Profile  
-
-- `GET /users/{user_id}`: Get user profile  
-- `PUT /users/{user_id}`: Update user profile  
-
-### Posts  
-
-- `GET /posts`: Get all posts  
-- `POST /posts`: Create a new post  
-- `GET /posts/{post_id}`: Get a specific post  
-- `DELETE /posts/{post_id}`: Delete a post  
-
-### Friends  
-
-- `GET /friends/all`: Get all friends  
-- `POST /friends/{user_id}`: Add a friend  
-- `DELETE /friends/{user_id}`: Remove a friend  
-
-### Chat  
-
-- `GET /chats/{friend_id}`: Get chat messages with a friend  
-- `POST /chats/{friend_id}`: Send a chat message  
+![fastapi-ui](./images/FastAPI-Swagger-UI.png)
 
 ## Technologies Used  
 
