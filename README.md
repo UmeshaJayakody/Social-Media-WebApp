@@ -65,9 +65,11 @@ Welcome to the Social Media App project! This project is a full-featured social 
     These profile details are kept **hidden** until both users have mutually followed each other. This ensures privacy and control over the information shared.  
 
   - **Others profiles - when not followed**
+
   ![followed](./images/others-account.png)
 
   - **Others profiles - when followed eachother**
+  
   ![not followed](./images/others-account-followed.png)
 
 
@@ -79,12 +81,14 @@ Welcome to the Social Media App project! This project is a full-featured social 
   3. **Alternative Content** (optional: image or video to accompany the post)  
 
   - **Create Post**
+
   ![post create](./images/create-post.png)
 
   - **Post Editing:**  
     Users can edit their posts at any time, allowing for continuous updates and modifications.
   
   - **Edit Post**
+
   ![post edit](./images/edit%20post.png)
 
   - **Engagement with Posts:**  
@@ -94,6 +98,7 @@ Welcome to the Social Media App project! This project is a full-featured social 
     - **View Comments**: Users can view all comments made on the posts for an engaging experience.
 
   - **Like & Comment**
+
   ![post create](./images/like-comment.png)
 
   - **Post Visibility:**  
