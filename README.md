@@ -69,7 +69,7 @@ Welcome to the Social Media App project! This project is a full-featured social 
   ![followed](./images/others-account.png)
 
   - **Others profiles - when followed eachother**
-  
+
   ![not followed](./images/others-account-followed.png)
 
 
@@ -109,15 +109,28 @@ Welcome to the Social Media App project! This project is a full-featured social 
     - Users have the ability to visit other profiles and engage with their content.  
     - **Follow/Unfollow** functionality allows users to build their network and stay updated on the posts from profiles they’re interested in.
 
-- **Friend connections and friend list management**  
-  - Users can follow and unfollow others.  
-  - When both users follow each other, they can chat.  
+### **Friend Connections and Friend List Management**
 
-- **Real-time chat functionality**  
-  - Chat is real-time but currently not optimized.  
+- **Follow/Unfollow Users:**  
+  Users have the ability to **follow** and **unfollow** other users, enabling dynamic connections within the platform.
 
-- **Responsive design for mobile and desktop**  
-  - Currently designed for desktop only.  
+- **Mutual Following for Chat Access:**  
+  Once two users **mutually follow** each other, they gain the ability to engage in direct **chat** with one another, enhancing interaction and communication.
+
+### **Real-Time Chat Functionality**
+
+- **Instant Messaging:**  
+  The chat feature allows for **real-time communication**, ensuring that messages are delivered and received instantly.  
+  *Note: The chat system is currently **not optimized** for performance and may have room for future improvements in speed and responsiveness.*
+
+### **Responsive Design for Mobile and Desktop**
+
+- **Current Design:**  
+  The platform is designed with a focus on **desktop users** for now, ensuring an optimal experience on larger screens.
+
+- **Mobile Responsiveness:**  
+  **Mobile optimization** is on the roadmap, and the platform will be made fully responsive for mobile devices in the future to cater to users on the go.
+
 
 ## Installation
 
