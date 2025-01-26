@@ -131,10 +131,6 @@ Welcome to the Social Media App project! This project is a full-featured social 
 - **Current Design:**  
   The platform is designed with a focus on **desktop users** for now, ensuring an optimal experience on larger screens.
 
-
-Start the login page from:  
-[http://127.0.0.1:5501/static/login.html](http://127.0.0.1:5501/static/login.html)  
-
 ### Prerequisites
 
 - Python 3.8+  
