@@ -5,7 +5,6 @@ Welcome to the Social Media App project! This project is a full-featured social 
 ## Table of Contents
 
 - [Features](#features)
-- [Installation](#installation)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
 - [Database](#Database)
@@ -133,18 +132,6 @@ Welcome to the Social Media App project! This project is a full-featured social 
   The platform is designed with a focus on **desktop users** for now, ensuring an optimal experience on larger screens.
 
 
-## Installation
-
-Install all dependencies using:  
-```bash
-pip install -r requirements.txt
-```  
-
-Run the app with:  
-```bash
-uvicorn app.main:app --reload --port 8000
-```  
-
 Start the login page from:  
 [http://127.0.0.1:5501/static/login.html](http://127.0.0.1:5501/static/login.html)  
 
@@ -243,23 +230,6 @@ websockets==14.1
     uvicorn main:app --reload
     ```  
 
-### Frontend Setup
-
-1. Navigate to the `static` directory:  
-    ```bash
-    cd static
-    ```  
-
-2. Install the required dependencies:  
-    ```bash
-    npm install
-    ```  
-
-3. Build the frontend assets:  
-    ```bash
-    npm run build
-    ```  
-
 ## Usage
 
 1. Start the backend server:  
@@ -267,12 +237,12 @@ websockets==14.1
     uvicorn main:app --reload
     ```  
 
-2. Open your browser and navigate to `http://127.0.0.1:8000` to access the application.  
+2. Open your browser and navigate to `http://127.0.0.1:5501/static/login.html` to access the application.  
 
 ## Database  
 
-The database contains 7 tables. Refer to the below diagram for details:  
-*(image)*  
+The database consists of 7 tables designed to efficiently store and manage data for the application. Below is the detailed schema, including the relationships between the tables. Please refer to the diagram below for a visual representation of the structure and how each table is interconnected.
+![chat](./images/database-diagram.png)
 
 ## API Endpoints  
 
