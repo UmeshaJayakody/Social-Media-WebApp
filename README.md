@@ -71,22 +71,29 @@ Welcome to the Social Media App project! This project is a full-featured social 
   ![not followed](./images/others-account-followed.png)
 
 
-  - **Visual Clarification:**  
-    The following screenshots provide additional clarity regarding the user profile and privacy settings:  
-    *(image1, image2)*  
-
 - **Posting updates with text and media**  
-  - After registration, users can create posts with:  
-    1. Title  
-    2. Content  
-    3. Alternative content (optional image or video)  
-  - Posts can be edited repeatedly.  
-  - Users and friends can:  
-    - Like/unlike posts  
-    - Comment on posts  
-    - View others' comments  
-  - Users see their posts on their profile, while the home page displays posts from everyone.  
-  - Users can visit other profiles and follow/unfollow them.  
+  - **Creating Posts:**  
+  After registration, users can create and share posts that include:  
+  1. **Title**  
+  2. **Content** (text-based)  
+  3. **Alternative Content** (optional: image or video to accompany the post)  
+
+  - **Post Editing:**  
+    Users can edit their posts at any time, allowing for continuous updates and modifications.
+
+  - **Engagement with Posts:**  
+    Users and their friends can interact with posts in the following ways:  
+    - **Like/Unlike Posts**: Show appreciation or remove likes on a post.  
+    - **Comment on Posts**: Share thoughts, feedback, or discussions related to the post.  
+    - **View Comments**: Users can view all comments made on the posts for an engaging experience.
+
+  - **Post Visibility:**  
+    - Users will see their own posts directly on their **profile** page.  
+    - The **home page** displays posts from all users, allowing for a broader view of the platform's content.
+
+  - **Profile Interaction:**  
+    - Users have the ability to visit other profiles and engage with their content.  
+    - **Follow/Unfollow** functionality allows users to build their network and stay updated on the posts from profiles they’re interested in.
 
 - **Friend connections and friend list management**  
   - Users can follow and unfollow others.  
