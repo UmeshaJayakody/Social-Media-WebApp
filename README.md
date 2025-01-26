@@ -33,21 +33,40 @@ Welcome to the Social Media App project! This project is a full-featured social 
 
   ![Login page](./images/login-page.png)
   - **Signup**
-  
+
   ![Signup page](./images/signup-page.png)
 
 
 - **Profile creation and management**  
-  - On registration, the app automatically creates a user account based on the provided information.  
-  - At registration, users cannot add profile photos, backgrounds, or additional details.  
-  - After logging in, users can update their profile with:  
-    1. Introduction about themselves  
-    2. Contact numbers  
-    3. Birthday  
-    4. Address  
-    5. Social media links  
-  - These details remain hidden until both users follow each other.  
-  *(image1, image2 for more clarity)*  
+  - **Automatic Account Creation:**  
+  Upon registration, the app automatically creates a user account using the information provided, including **name**, **email**, and **password**.  
+
+  - **Profile Limitations at Registration:**  
+    During registration, users are not able to add profile photos, background images, or any additional details. These features are available after successful login.  
+
+  - **Profile Updates:**  
+    After logging in, users can update their profile with the following details:  
+    - **Introduction** (A short bio or about section)  
+    - **Contact Numbers**  
+    - **Birthday**  
+    - **Address**  
+    - **Social Media Links** (Links to profiles on platforms like Twitter, LinkedIn, etc.)  
+
+    - **Profile page**
+     ![profile-page](./images/edit-profile-button.png)
+
+    - **Add more details**
+     ![add-data](./images/edit-profile-1.png)
+     ![add-data](./images/edit-profile.png)
+
+
+
+  - **Privacy Settings:**  
+    These profile details are kept **hidden** until both users have mutually followed each other. This ensures privacy and control over the information shared.  
+
+  - **Visual Clarification:**  
+    The following screenshots provide additional clarity regarding the user profile and privacy settings:  
+    *(image1, image2)*  
 
 - **Posting updates with text and media**  
   - After registration, users can create posts with:  
