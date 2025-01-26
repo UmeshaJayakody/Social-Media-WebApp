@@ -27,10 +27,11 @@ Welcome to the Social Media App project! This project is a full-featured social 
   If the token expires, users are automatically redirected to the login page, where they can log in again to refresh their session with a new token.  
 
 - **Visual Clarification:**  
-  The following screenshots provide a clearer understanding of the user authentication flow.  
-  Login 
+  The following screenshots provide a clearer understanding of the user authentication flow. 
+
+  - Login 
   ![Login page](./images/login-page.png)
-  Signup
+  - Signup
   ![Signup page](./images/signup-page.png)
 
 
