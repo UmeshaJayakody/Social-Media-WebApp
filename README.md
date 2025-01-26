@@ -78,14 +78,23 @@ Welcome to the Social Media App project! This project is a full-featured social 
   2. **Content** (text-based)  
   3. **Alternative Content** (optional: image or video to accompany the post)  
 
+  - **Create Post**
+  ![post create](./images/create-post.png)
+
   - **Post Editing:**  
     Users can edit their posts at any time, allowing for continuous updates and modifications.
+  
+  - **Edit Post**
+  ![post edit](./images/edit%20post.png)
 
   - **Engagement with Posts:**  
     Users and their friends can interact with posts in the following ways:  
     - **Like/Unlike Posts**: Show appreciation or remove likes on a post.  
     - **Comment on Posts**: Share thoughts, feedback, or discussions related to the post.  
     - **View Comments**: Users can view all comments made on the posts for an engaging experience.
+
+  - **Like & Comment**
+  ![post create](./images/like-comment.png)
 
   - **Post Visibility:**  
     - Users will see their own posts directly on their **profile** page.  
