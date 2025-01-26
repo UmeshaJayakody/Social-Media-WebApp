@@ -64,6 +64,13 @@ Welcome to the Social Media App project! This project is a full-featured social 
   - **Privacy Settings:**  
     These profile details are kept **hidden** until both users have mutually followed each other. This ensures privacy and control over the information shared.  
 
+  - **Others profiles - when not followed**
+  ![followed](./images/others-account.png)
+
+  - **Others profiles - when followed eachother**
+  ![not followed](./images/others-account-followed.png)
+
+
   - **Visual Clarification:**  
     The following screenshots provide additional clarity regarding the user profile and privacy settings:  
     *(image1, image2)*  
