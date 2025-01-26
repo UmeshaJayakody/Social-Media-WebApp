@@ -10,7 +10,6 @@ Welcome to the Social Media App project! This project is a full-featured social 
 - [Database](#Database)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
