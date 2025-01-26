@@ -7,5 +7,3 @@ uvicorn app.main:app --reload
 login page 
 start from hear
 http://127.0.0.1:5501/static/login.html
-
-when yoy initialize this project you want to create a folder named upload and add default user profile picture named ""default_dp" and default cover photo named "default_backgroud"
