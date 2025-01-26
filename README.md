@@ -123,13 +123,13 @@ Welcome to the Social Media App project! This project is a full-featured social 
   The chat feature allows for **real-time communication**, ensuring that messages are delivered and received instantly.  
   *Note: The chat system is currently **not optimized** for performance and may have room for future improvements in speed and responsiveness.*
 
+- **Chat**
+![chat](./images/chat.png)
+
 ### **Responsive Design for Mobile and Desktop**
 
 - **Current Design:**  
   The platform is designed with a focus on **desktop users** for now, ensuring an optimal experience on larger screens.
-
-- **Mobile Responsiveness:**  
-  **Mobile optimization** is on the roadmap, and the platform will be made fully responsive for mobile devices in the future to cater to users on the go.
 
 
 ## Installation
