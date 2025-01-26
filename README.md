@@ -1,4 +1,4 @@
-# Social Media App
+# Social Media WebApp
 
 Welcome to the Social Media App project! This project is a full-featured social media application built using FastAPI for the backend and JavaScript for the frontend. The app allows users to create profiles, post updates, connect with friends, and chat in real-time.
 
@@ -8,18 +8,30 @@ Welcome to the Social Media App project! This project is a full-featured social 
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
+- [Database](#Database)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Features
 
-- **User authentication and authorization**  
-  Users can register using their name, email, and password. After registering, they can log in using their email and password.  
-  - Login is managed using a JWT token system valid for 60 minutes (modifiable via the `ACCESS_TOKEN_EXPIRE_MINUTES` variable in the `.env` file).  
-  - If the token expires, users are redirected to the login page and can log in again.  
-  - Below screenshots provide more clarity.  
-  *(image1, image2)*  
+### **User Authentication and Authorization**
+
+- **Registration:**  
+  Users can sign up by providing their **name**, **email**, and **password**. Once registered, they can log in securely using their email and password.  
+
+- **Login Process:**  
+  The login process is managed using a **JWT (JSON Web Token)** system for secure authentication. The token expiration time is variable and can be configured via the `ACCESS_TOKEN_EXPIRE_MINUTES` variable in the `.env` file.  
+
+- **Token Expiry:**  
+  If the token expires, users are automatically redirected to the login page, where they can log in again to refresh their session with a new token.  
+
+- **Visual Clarification:**  
+  The following screenshots provide a clearer understanding of the user authentication flow.  
+
+  ![Login page](path/to/image1.png)
+  ![Signup page](path/to/image1.png)
+
 
 - **Profile creation and management**  
   - On registration, the app automatically creates a user account based on the provided information.  
