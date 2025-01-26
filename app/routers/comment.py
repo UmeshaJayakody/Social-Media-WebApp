@@ -11,7 +11,7 @@ def get_comments(post_id: int, db: Session = Depends(get_db), current_user: int 
     if not comments:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="No comments found for this post")
     
-    # Include user information in the response
+
     comments_with_user = []
     for comment in comments:
         user = db.query(models.User).filter(models.User.id == comment.user_id).first()
@@ -34,7 +34,6 @@ def create_comment(post__id: int, comment: schemas.CommentCreate, db: Session = 
     db.commit()
     db.refresh(new_comment)
     
-    # Include user information in the response
     user = db.query(models.User).filter(models.User.id == new_comment.user_id).first()
     comment_with_user = schemas.CommentOut(
         id=new_comment.id,

@@ -23,8 +23,6 @@ def friend_request(friend_for: schemas.friendIn, db: Session = Depends(get_db), 
     friend = db.query(models.User).filter(models.User.id == friend_for.friend_id).first()
     if not friend:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Friend not found")
-
-    # Check if the friend relationship already exists
     existing_friend = db.query(models.Friend).filter(
         models.Friend.user_id == current_user.id,
         models.Friend.friend_id == friend_for.friend_id
@@ -46,7 +44,6 @@ def unfriend(friend_id: int, db: Session = Depends(get_db), current_user: int = 
     if not friend:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Friend not found")
 
-    # Check if the friend relationship exists
     existing_friend = db.query(models.Friend).filter(
         models.Friend.user_id == current_user.id,
         models.Friend.friend_id == friend_id
@@ -66,7 +63,6 @@ def is_friend(friend_id: int, db: Session = Depends(get_db), current_user: int =
     if not friend:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Friend not found")
 
-    # Check if the friend relationship exists
     existing_friend = db.query(models.Friend).filter(
         models.Friend.user_id == current_user.id,
         models.Friend.friend_id == friend_id
@@ -80,7 +76,6 @@ def is_friend_dualside(friend_id: int, db: Session = Depends(get_db), current_us
     if not friend:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Friend not found")
 
-    # Check for the existence of both relationships
     first_relation = db.query(models.Friend).filter(
         (models.Friend.user_id == current_user.id) & (models.Friend.friend_id == friend_id)
     ).first()
